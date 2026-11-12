@@ -1,0 +1,27 @@
+{
+  "name": "ai-hospital-queue-and-patient-flow-manager",
+  "version": "1.0.0",
+  "description": "Full-stack AI Hospital Queue & Patient Flow Manager with real-time Socket.IO and PostgreSQL",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "migrate": "npm --prefix server run migrate",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test",
+    "build:client": "npm --prefix client run build",
+    "start:server": "npm --prefix server start",
+    "dev:server": "npm --prefix server dev",
+    "dev:client": "npm --prefix client dev"
+  },
+  "keywords": [
+    "hospital",
+    "queue",
+    "flow-manager",
+    "socketio",
+    "postgresql",
+    "react",
+    "vite",
+    "tailwindcss"
+  ],
+  "author": "Senior Full-Stack Engineer",
+  "license": "ISC"
+}
